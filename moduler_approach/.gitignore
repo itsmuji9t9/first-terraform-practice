@@ -1,0 +1,14 @@
+# Local .terraform directories (Plugins folder)
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs and logs
+crash.log
+*.log
+
+# Terraform variables file (agar aap credentials local save rakhte hain)
+*.tfvars
+*.tfvars.json
