@@ -1,0 +1,31 @@
+# === SSH Keys (Very Important!) ===
+*.pem
+*.pub
+123.pem
+my-key.pub
+
+# === Terraform Files (No local state or vars to GitHub) ===
+# Local .terraform directory (contains provider plugins)
+.terraform/
+
+# Terraform state files (contains infrastructure metadata and secrets)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform variables files (might contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
