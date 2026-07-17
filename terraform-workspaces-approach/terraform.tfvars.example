@@ -1,0 +1,3 @@
+# terraform.tfvars.example
+ami_id        = "Enter your AMI ID here"
+instance_type = "e.g., t2.micro"
